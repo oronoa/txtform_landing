@@ -1,6 +1,6 @@
  /* section_testimonial_1 Start of CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .t1 {text-align: left;}
+    .t1 {text-align: center;}
 
     .t1-text {
         padding: 12px 20px;
@@ -46,8 +46,8 @@
     }
 
     .t1-author img {
-      width: 80px;
-      height: 80px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       border: 1px solid #D1D1D1;
     }
@@ -57,7 +57,7 @@
       font-weight: 700;
     }
     .t1-name, .t1-company {
-      margin-left: 90px;
+      margin-left: 0px;
     }
 
   .t1 q { quotes: "\201C""\201D""\2018""\2019"; }
