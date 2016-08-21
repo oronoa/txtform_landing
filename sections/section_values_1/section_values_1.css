@@ -1,0 +1,19 @@
+/* section_values_1 Start of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.v1 {
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+.v1-multiplier {
+  margin-bottom: .5rem;
+  color: #33c3f0;
+}
+.v1-heading {
+  margin-bottom: .3rem;
+}
+.v1-description {
+  opacity: .8;
+  font-weight: 300;
+}
+/* section_values_1 End of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */

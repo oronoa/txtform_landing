@@ -1,0 +1,18 @@
+/* section_hero_2  Start of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.r2 img {
+  margin-bottom: 100px;
+}
+
+/* Smaller than 550 */
+@media (max-width: 550px) {
+  .r2 h1  {
+    /* Equivalent to h2 */
+    font-size: 4.2rem;
+  }
+  .r2 img {
+    margin-bottom: 10px;
+  }
+}
+/* section_hero_2  End of CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
