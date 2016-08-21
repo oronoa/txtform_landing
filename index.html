@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="../css/landing.css">
   <link rel="stylesheet" href="../css/shared.css">
   <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="section_navbar_1.css">
 
   <!-- External dependencies
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,7 +35,25 @@
 </head>
 <body>
 
-<div id="hook"></div>
+<div class="n1">
+<header>
+    <div class="container container-wide">
+      <a class="logo" href="#"><strong>Text</strong> Form</a>
+        <input id="nav" type="checkbox">
+        <label for="nav"></label>
+        <nav>
+          <ul>
+            <li><a href="#" onclick="document.getElementById('nav').checked = false;return true;">Home</a></li>
+            <li><a href="#features" onclick="document.getElementById('nav').checked = false;return true;">Features</a></li>
+            <li><a href="#values" onclick="document.getElementById('nav').checked = false;return true;">More</a></li>
+          </ul>
+        </nav>
+    </div>
+</header>
+</div>
+<!-- section_navbar_1 End of HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 
 <!-- section_hero_1 Start of HTML
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -180,13 +199,5 @@
 
   <!-- Hack to import CSS and HTML into the demo.html -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
-  <script type="text/javascript">
-    $('head').append(
-      '<link rel="stylesheet" href="./section_navbar_1.css" type="text/css" />'
-      );
-    $(function(){
-      $("#hook").load("./section_navbar_1.html");
-    });
-  </script>
 </body>
 </html>
